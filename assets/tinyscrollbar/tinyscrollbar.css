@@ -1,0 +1,83 @@
+#scrollbar1, #scrollbar2, #scrollbar3, #scrollbar4, #scrollbar5, #scrollbar6, #scrollbar7, #scrollbar8, #scrollbar9, #scrollbar10
+{
+    width:93%;
+    margin:10px 0;
+    position: relative;
+}
+
+#scrollbar1 .viewport, #scrollbar2 .viewport, #scrollbar3 .viewport, #scrollbar4 .viewport, #scrollbar5 .viewport, 
+#scrollbar6 .viewport, #scrollbar7 .viewport, #scrollbar8 .viewport, #scrollbar9 .viewport, #scrollbar10 .viewport
+{
+    height: 300px;
+    overflow:hidden;
+    position:relative;
+}
+
+#scrollbar1 .overview, #scrollbar2 .overview, #scrollbar3 .overview, #scrollbar4 .overview, #scrollbar5 .overview,
+#scrollbar6 .overview, #scrollbar7 .overview, #scrollbar8 .overview, #scrollbar9 .overview, #scrollbar10 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 10px 10px 0px;
+}
+
+#scrollbar1 .scrollbar, #scrollbar2 .scrollbar, #scrollbar3 .scrollbar, #scrollbar4 .scrollbar, #scrollbar5 .scrollbar,
+#scrollbar6 .scrollbar, #scrollbar7 .scrollbar, #scrollbar8 .scrollbar, #scrollbar9 .scrollbar, #scrollbar10 .scrollbar
+{
+    background:transparent url(images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -20px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar1 .track, #scrollbar2 .track, #scrollbar3 .track, #scrollbar4 .track, #scrollbar5 .track,
+#scrollbar6 .track, #scrollbar7 .track, #scrollbar8 .track, #scrollbar9 .track, #scrollbar10 .track
+{
+    background:transparent url(images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar1 .thumb, #scrollbar2 .thumb, #scrollbar3 .thumb, #scrollbar4 .thumb, #scrollbar5 .thumb,
+#scrollbar6 .thumb, #scrollbar7 .thumb, #scrollbar8 .thumb, #scrollbar9 .thumb, #scrollbar10 .thumb
+{
+    background:transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar1 .thumb .end, #scrollbar2 .thumb .end, #scrollbar3 .thumb .end, #scrollbar4 .thumb .end, #scrollbar5 .thumb .end,
+#scrollbar6 .thumb .end, #scrollbar7 .thumb .end, #scrollbar8 .thumb .end, #scrollbar9 .thumb .end, #scrollbar10 .thumb .end
+{
+    background:transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar1 .disable, #scrollbar2 .disable, #scrollbar3 .disable, #scrollbar4 .disable, #scrollbar5 .disable,
+#scrollbar6 .disable, #scrollbar7 .disable, #scrollbar8 .disable, #scrollbar9 .disable, #scrollbar10 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}

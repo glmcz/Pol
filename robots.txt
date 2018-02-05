@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /auth
+Disallow: /auth/register
+Disallow: /calendar
+Sitemap: https://polahoda.cz/sitemap
